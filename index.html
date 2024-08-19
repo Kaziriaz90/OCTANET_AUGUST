@@ -3,54 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnovateTech - Leading Software Solutions</title>
+    <title>My To-Do List</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>InnovateTech</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="hero">
-        <h2>Transforming Ideas into Reality</h2>
-        <p>Innovative software solutions to drive your business forward.</p>
-        <a href="#contact" class="cta-button">Get in Touch</a>
-    </section>
-
-    <section id="about">
-        <h3>About InnovateTech</h3>
-        <p>At InnovateTech, we specialize in providing cutting-edge software solutions tailored to meet the unique needs of businesses across various industries. Our mission is to help companies innovate and grow through technology.</p>
-    </section>
-
-    <section id="services">
-        <h3>Our Services</h3>
-        <div class="service-item">
-    
-    <h4>Custom Software Development</h4>
-    <p>We build custom software that aligns with your business goals, ensuring scalability and efficiency.</p>
-</div>
-        <div class="service-item">
-            <h4>Cloud Solutions</h4>
-            <p>Our cloud solutions provide secure, scalable, and reliable platforms to enhance your business operations.</p>
+    <div class="container">
+        <h1>Manage Your Tasks</h1>
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-task-btn">Add</button>
         </div>
-        <div class="service-item">
-            <h4>Data Analytics</h4>
-            <p>Unlock the power of data with our advanced analytics services to drive informed decision-making.</p>
-        </div>
-    </section>
+        <ul id="task-list"></ul>
+    </div>
 
-    <footer id="contact">
-    <img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="InnovateTech Logo" class="footer-logo">
-    <h3>Contact Us</h3>
-    <p>Email: info@innovatetech.com</p>
-    <p>Phone: +123 456 7890</p>
-</footer>
+    <script src="script.js"></script>
 </body>
 </html>
